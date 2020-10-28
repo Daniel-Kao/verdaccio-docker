@@ -13,6 +13,10 @@
 # path to a directory with all packages
 storage: /verdaccio/storage
 
+auth:
+  htpasswd:
+    file: /verdaccio/conf/htpasswd
+
 # a list of other known repositories we can talk to
 uplinks:
   server1:
